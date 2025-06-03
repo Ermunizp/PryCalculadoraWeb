@@ -27,12 +27,12 @@ function seleccionarOperacion(op) {
 function calcular() {
   const input = document.getElementById('inputNumero');
   const segundoNumero = parseFloat(input.value);
-
+// Valida que haya ingresado los 2 números y la operación
   if (input.value === '' || primerNumero === null || operacion === null) {
-    alert("Completa ambos números y una operación.");
+    alert("Error: Debe ingresar ambos números y una operación.");
     return;
   }
-
+// Valida las divisiones por cero
   if (operacion === '/' && segundoNumero === 0) {
     alert("Error: No se puede dividir por cero.");
     limpiar();
