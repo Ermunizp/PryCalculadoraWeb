@@ -11,8 +11,9 @@ function agregarNumero(num) {
 // Selecciona la operación a realizar
 function seleccionarOperacion(op) {
   const input = document.getElementById('inputNumero');
+  // Valida que se ingrese el primer número de la operación
   if (input.value === '') {
-    alert("Ingrese el primer número.");
+    alert("Debe ingresar el primer número para calcular.");
     return;
   }
 
