@@ -56,7 +56,7 @@ function calcular() {
       break;
   }
 
-  document.getElementById('resultado').textContent = `Resultado: ${resultado}`;
+  document.getElementById('resultado').textContent = `El Resultado es: ${resultado}`;
   document.getElementById('operacionActual').textContent = '';
   document.getElementById('inputNumero').value = '';
   primerNumero = null;
