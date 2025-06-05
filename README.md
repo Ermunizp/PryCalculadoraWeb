@@ -11,13 +11,13 @@ Funcionalidades
 Tecnologías utilizadas
 - HTML5
 - CSS3
-- [Bootstrap 5](https://getbootstrap.com/)
+- Bootstrap 5
 - JavaScript (Vanilla)
 ## Cómo usar
-1.	Clona o descarga este repositorio.
-2.	Asegúrate de que index.html, script.js y cualquier imagen estén en la misma carpeta.
-3.	Abre index.html en cualquier navegador web moderno.
-4.	¡Listo! Usa la calculadora desde tu computadora, tablet o celular.
+1.	Descargar este repositorio.
+2.	Asegurar que index.html, script.js y cualquier imagen estén en la misma carpeta.
+3.	Abrir index.html en cualquier navegador web moderno.
+4.	Usar la calculadora desde una computadora, tablet o celular.
 ## Aprendizajes aplicados
 •	Manipulación del DOM con JavaScript.
 •	Uso de funciones, condicionales y validaciones simples.
